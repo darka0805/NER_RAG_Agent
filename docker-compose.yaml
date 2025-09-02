@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  mcp_server:
+    build:
+      context: ./mcp_server
+      dockerfile: Dockerfile
+    container_name: mcp_server
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./fine_tuned_model:/app/fine_tuned_model
+      - ./ukr_fine_tuned_model:/app/ukr_fine_tuned_model
+    environment:
+      - ENGLISH_MODEL_PATH=/app/fine_tuned_model
+      - UKRAINIAN_MODEL_PATH=/app/ukr_fine_tuned_model
+
+  front_and_agent:
+    build:
+      context: ./front_and_agent
+      dockerfile: Dockerfile
+    container_name: front_and_agent
+    ports:
+      - "8501:8501"
+      - "8001:8001"
+    volumes:
+      - ./front_and_agent:/app
+      - ./student_profile.txt:/app/student_profile.txt
+    environment:
+      - AGENT_API_URL=http://localhost:8001
+      - MCP_SERVER_URL=http://mcp_server:8002/mcp/
+    depends_on:
+      - mcp_server
