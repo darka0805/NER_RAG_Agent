@@ -1,0 +1,27 @@
+Name: Daryna Kuzyshyn
+Date of Birth: 2005-05-08
+University: Ukrainian Catholic University (UCU)
+Field of Study: Computer Science / Artificial Intelligence
+
+Profile Overview:
+Daryna Kuzyshyn is a motivated student with a strong interest in natural language processing (NLP) and its practical applications. Her academic journey combines both theoretical foundations in computer science and hands-on experience with modern machine learning methods. She is particularly engaged in tasks such as named entity recognition (NER), data anonymization, and working with transformer-based models, which are central to today’s NLP research and industry applications.
+
+Skills & Interests:
+
+Natural Language Processing (NLP)
+
+Machine Learning & Deep Learning
+
+Named Entity Recognition (NER)
+
+Data Privacy & Anonymization
+
+Transformers & Large Language Models
+
+Research and experimentation with applied AI
+
+Academic Environment:
+At UCU, Daryna is involved in coursework, research, and projects that bridge the gap between theory and practice. She enjoys exploring how AI can solve real-world problems, especially in the domains of language understanding, data security, and information retrieval.
+
+Personal Interests:
+Beyond her academic pursuits, she is curious, analytical, and passionate about exploring the intersection of technology and human communication. She values continuous learning, collaboration, and contributing to innovative projects.

@@ -1,0 +1,13 @@
+mcp[fastmcp]
+starlette
+python-dotenv
+transformers
+torch
+sentence-transformers
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-huggingface
+langchain-text-splitters
+faiss-cpu
